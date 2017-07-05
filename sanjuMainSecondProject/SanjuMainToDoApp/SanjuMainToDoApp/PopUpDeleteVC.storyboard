@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11542" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="wxh-Zb-qpK">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Pop Up DeleteVC-->
+        <scene sceneID="J9M-7V-VM1">
+            <objects>
+                <viewController id="wxh-Zb-qpK" customClass="PopUpDeleteVC" customModule="SanjuMainToDoApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="EXb-Fl-HgS"/>
+                        <viewControllerLayoutGuide type="bottom" id="Q7E-fN-3Uu"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="vDc-xb-HqS">
+                        <rect key="frame" x="0.0" y="0.0" width="150" height="250"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="Fxf-pi-sRl">
+                                <rect key="frame" x="0.0" y="0.0" width="150" height="250"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="deleteCell" id="BdG-2r-tio" customClass="PopUpDeleteVCCell" customModule="SanjuMainToDoApp" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="28" width="150" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="BdG-2r-tio" id="H2P-y8-CHG">
+                                            <rect key="frame" x="0.0" y="0.0" width="150" height="43"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VGw-7a-nVd">
+                                                    <rect key="frame" x="8" y="8" width="134" height="24"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="16"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="popUpOptionLabel" destination="VGw-7a-nVd" id="GDN-fF-Fjg"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </prototypes>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Fxf-pi-sRl" firstAttribute="leading" secondItem="vDc-xb-HqS" secondAttribute="leading" id="hog-lp-FuY"/>
+                            <constraint firstAttribute="trailing" secondItem="Fxf-pi-sRl" secondAttribute="trailing" id="qhG-uU-DWJ"/>
+                            <constraint firstItem="Q7E-fN-3Uu" firstAttribute="top" secondItem="Fxf-pi-sRl" secondAttribute="bottom" id="rMX-Sc-y6Z"/>
+                            <constraint firstItem="Fxf-pi-sRl" firstAttribute="top" secondItem="vDc-xb-HqS" secondAttribute="top" id="xtv-ei-abF"/>
+                        </constraints>
+                    </view>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="150" height="250"/>
+                    <connections>
+                        <outlet property="tableView" destination="Fxf-pi-sRl" id="a5e-Aq-XbF"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="awZ-Su-sur" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="68.799999999999997" y="-125.03748125937032"/>
+        </scene>
+    </scenes>
+</document>

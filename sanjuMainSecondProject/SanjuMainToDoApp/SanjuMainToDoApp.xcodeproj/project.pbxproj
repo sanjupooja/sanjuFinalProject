@@ -1,0 +1,1117 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0A2BE9161ECD828A0044DDC7 /* SearchVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A2BE9151ECD828A0044DDC7 /* SearchVC.swift */; };
+		0A2BE9181ECDD65D0044DDC7 /* RemindersVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A2BE9171ECDD65D0044DDC7 /* RemindersVC.swift */; };
+		0A357DBF1F0287AC000070D0 /* ForgotPassDBModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A357DBE1F0287AC000070D0 /* ForgotPassDBModel.swift */; };
+		0A357DC21F029610000070D0 /* ArchivePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A357DC11F029610000070D0 /* ArchivePresenter.swift */; };
+		0A357DC41F0297EA000070D0 /* ArchiveDBModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A357DC31F0297EA000070D0 /* ArchiveDBModel.swift */; };
+		0A38DC651ECC10F7009C3F3B /* ArchiveVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A38DC641ECC10F7009C3F3B /* ArchiveVC.swift */; };
+		0A3C3E851EC70F5700710D9D /* ProtocolCallBackController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A3C3E841EC70F5700710D9D /* ProtocolCallBackController.swift */; };
+		0A3C3E881EC741FE00710D9D /* SlideViewMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A3C3E871EC741FE00710D9D /* SlideViewMenu.swift */; };
+		0A3C3E8A1EC743E200710D9D /* SlideViewMenuCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A3C3E891EC743E200710D9D /* SlideViewMenuCell.swift */; };
+		0A40617B1ED46BEF000D503F /* TrashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A40617A1ED46BEE000D503F /* TrashView.swift */; };
+		0A49F9831EE57B7A00F6A75B /* PopUpDeleteVC.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A49F9821EE57B7A00F6A75B /* PopUpDeleteVC.storyboard */; };
+		0A49F9851EE57CD900F6A75B /* PopUpDeleteVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A49F9841EE57CD900F6A75B /* PopUpDeleteVC.swift */; };
+		0A49F9871EE57E0600F6A75B /* PopUpDeleteVCCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A49F9861EE57E0600F6A75B /* PopUpDeleteVCCell.swift */; };
+		0A4B2CE81ED5600E001AA5FE /* ReminderPopUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A4B2CE71ED5600E001AA5FE /* ReminderPopUpView.swift */; };
+		0A4B2CEA1ED5BA7D001AA5FE /* PopUpTableVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A4B2CE91ED5BA7D001AA5FE /* PopUpTableVC.swift */; };
+		0A4B2CEE1ED5C1D1001AA5FE /* PopupController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A4B2CED1ED5C1D1001AA5FE /* PopupController.swift */; };
+		0A4C6CD81ECEF330003F3984 /* LaunchScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A4C6CD71ECEF330003F3984 /* LaunchScreenViewController.swift */; };
+		0A52ECF11EC574B700038D72 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A52ECF01EC574B700038D72 /* AppDelegate.swift */; };
+		0A52ECF31EC574B700038D72 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A52ECF21EC574B700038D72 /* LoginView.swift */; };
+		0A52ECF61EC574B700038D72 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A52ECF41EC574B700038D72 /* Main.storyboard */; };
+		0A52ECF91EC574B800038D72 /* SanjuMainToDoApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0A52ECF71EC574B800038D72 /* SanjuMainToDoApp.xcdatamodeld */; };
+		0A52ECFB1EC574B800038D72 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A52ECFA1EC574B800038D72 /* Assets.xcassets */; };
+		0A52ECFE1EC574B800038D72 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A52ECFC1EC574B800038D72 /* LaunchScreen.storyboard */; };
+		0A52ED091EC574B900038D72 /* SanjuMainToDoAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A52ED081EC574B900038D72 /* SanjuMainToDoAppTests.swift */; };
+		0A52ED141EC574B900038D72 /* SanjuMainToDoAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A52ED131EC574B900038D72 /* SanjuMainToDoAppUITests.swift */; };
+		0A52ED2A1EC58DBA00038D72 /* FloatLabelTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A52ED291EC58DBA00038D72 /* FloatLabelTextField.swift */; };
+		0A52ED2C1EC5907800038D72 /* LoginPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A52ED2B1EC5907800038D72 /* LoginPresenter.swift */; };
+		0A52ED2E1EC5B71300038D72 /* RegisterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A52ED2D1EC5B71300038D72 /* RegisterView.swift */; };
+		0A52ED301EC5BD7C00038D72 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0A52ED2F1EC5BD7C00038D72 /* GoogleService-Info.plist */; };
+		0A52ED371EC5DB1900038D72 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A52ED361EC5DB1900038D72 /* MBProgressHUD.m */; };
+		0A52ED3B1EC5E20F00038D72 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A52ED3A1EC5E20F00038D72 /* SWRevealViewController.m */; };
+		0A52ED3D1EC5E6AC00038D72 /* CollectionTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A52ED3C1EC5E6AC00038D72 /* CollectionTableView.swift */; };
+		0A52ED411EC5F45C00038D72 /* RegisterPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A52ED401EC5F45C00038D72 /* RegisterPresenter.swift */; };
+		0A52ED431EC5F6FD00038D72 /* RegisterModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A52ED421EC5F6FD00038D72 /* RegisterModelData.swift */; };
+		0A58B3B41ED6AAF700942BEF /* PopUpTableVC.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A58B3B31ED6AAF700942BEF /* PopUpTableVC.storyboard */; };
+		0A58B3B61ED6AF3600942BEF /* PopUpTableVCCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A58B3B51ED6AF3600942BEF /* PopUpTableVCCell.swift */; };
+		0A58B3BC1ED6E30500942BEF /* PopUpDatePickVC.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A58B3BB1ED6E30500942BEF /* PopUpDatePickVC.storyboard */; };
+		0A58B3BE1ED6E3B100942BEF /* PopUpDatePickVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A58B3BD1ED6E3B100942BEF /* PopUpDatePickVC.swift */; };
+		0A58B3C01ED6E6FA00942BEF /* PopUpDatePickVCCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A58B3BF1ED6E6FA00942BEF /* PopUpDatePickVCCell.swift */; };
+		0A58B3C21ED6F54800942BEF /* PopUpReminderVC.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A58B3C11ED6F54800942BEF /* PopUpReminderVC.storyboard */; };
+		0A58B3C41ED6F64800942BEF /* PopUpReminderVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A58B3C31ED6F64800942BEF /* PopUpReminderVC.swift */; };
+		0A58B3C61ED6F6BC00942BEF /* PopUpReminderVCCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A58B3C51ED6F6BC00942BEF /* PopUpReminderVCCell.swift */; };
+		0A86E78C1EC972A4006F541F /* AddNotesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A86E78B1EC972A4006F541F /* AddNotesView.swift */; };
+		0ABCF2781EEE96C900711361 /* FSCalendarVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ABCF2771EEE96C900711361 /* FSCalendarVC.swift */; };
+		0ABCF2CB1EEED27900711361 /* FSCalendarVC.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0ABCF2CA1EEED27900711361 /* FSCalendarVC.storyboard */; };
+		0AFACA1E1EEBAE8A00421AA4 /* ImageCropView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AFACA1C1EEBAE8A00421AA4 /* ImageCropView.m */; };
+		0AFACA211EEBAE9900421AA4 /* FXBlurView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AFACA1F1EEBAE9900421AA4 /* FXBlurView.m */; };
+		0AFD47671EE14CF1003B279A /* RemindMeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AFD47651EE14CF1003B279A /* RemindMeCell.swift */; };
+		0AFD47681EE14CF1003B279A /* RemindMeCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0AFD47661EE14CF1003B279A /* RemindMeCell.xib */; };
+		0AFD476A1EE1706B003B279A /* WaterfallCollectionViewLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AFD47691EE1706B003B279A /* WaterfallCollectionViewLayout.swift */; };
+		62545148C7A5F7A44AC707D9 /* Pods_SanjuMainToDoAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1797D0B934EEF61C61D8F3CF /* Pods_SanjuMainToDoAppTests.framework */; };
+		709CE0F92CD87844C791CCCF /* Pods_SanjuMainToDoAppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 994B0182E63A6B9748D877B5 /* Pods_SanjuMainToDoAppUITests.framework */; };
+		7590F82E0DDD3FD9D22AA45B /* Pods_SanjuMainToDoApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C93E49FB0CA8AA873EB7F9B1 /* Pods_SanjuMainToDoApp.framework */; };
+		84241E051EF26ED800716D6A /* CustomTimeClockView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84241E041EF26ED800716D6A /* CustomTimeClockView.swift */; };
+		84C6FD6D1EF4FAE700462F02 /* ColorPickerView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84C6FD6C1EF4FAE700462F02 /* ColorPickerView.storyboard */; };
+		84C6FD6F1EF4FC1900462F02 /* ColorPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C6FD6E1EF4FC1900462F02 /* ColorPickerView.swift */; };
+		84C6FD711EF4FD2900462F02 /* ColorPickerViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C6FD701EF4FD2900462F02 /* ColorPickerViewCell.swift */; };
+		84C6FD731EF500D000462F02 /* ColorPickerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C6FD721EF500D000462F02 /* ColorPickerExtension.swift */; };
+		84D184921F03D8C000E20E4F /* ESTimePicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 84D184911F03D8C000E20E4F /* ESTimePicker.m */; };
+		84D184951F03D8CC00E20E4F /* ESMathUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 84D184941F03D8CC00E20E4F /* ESMathUtils.m */; };
+		84DCAA9E1EFA73CE00448830 /* CellDeleteForever.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84DCAA9D1EFA73CE00448830 /* CellDeleteForever.storyboard */; };
+		84DCAAA01EFA746100448830 /* CellDeleteForever.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DCAA9F1EFA746100448830 /* CellDeleteForever.swift */; };
+		84DCAAA21EFA754C00448830 /* DeleteForeverCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DCAAA11EFA754C00448830 /* DeleteForeverCell.swift */; };
+		84DE07271EFCCA5200405044 /* ForgotPasswordController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DE07261EFCCA5200405044 /* ForgotPasswordController.swift */; };
+		84DE07291EFCDDC300405044 /* ForgotPasswordPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DE07281EFCDDC300405044 /* ForgotPasswordPresenter.swift */; };
+		84DE072F1EFD4D9600405044 /* AddNotePresenterController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DE072E1EFD4D9600405044 /* AddNotePresenterController.swift */; };
+		84DE07311EFD5D0600405044 /* AddNotesModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DE07301EFD5D0600405044 /* AddNotesModel.swift */; };
+		84E67C6F1EFB8E5600488C6E /* ArchiveReminderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E67C6D1EFB8E5600488C6E /* ArchiveReminderCell.swift */; };
+		84E67C701EFB8E5600488C6E /* ArchiveReminderCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84E67C6E1EFB8E5600488C6E /* ArchiveReminderCell.xib */; };
+		84F09A071EF3F892005B6BDF /* CustomTimeClockView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84F09A061EF3F892005B6BDF /* CustomTimeClockView.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0A52ED051EC574B900038D72 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0A52ECE51EC574B700038D72 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0A52ECEC1EC574B700038D72;
+			remoteInfo = SanjuMainToDoApp;
+		};
+		0A52ED101EC574B900038D72 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0A52ECE51EC574B700038D72 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0A52ECEC1EC574B700038D72;
+			remoteInfo = SanjuMainToDoApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0A2BE9151ECD828A0044DDC7 /* SearchVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchVC.swift; sourceTree = "<group>"; };
+		0A2BE9171ECDD65D0044DDC7 /* RemindersVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RemindersVC.swift; sourceTree = "<group>"; };
+		0A357DBE1F0287AC000070D0 /* ForgotPassDBModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ForgotPassDBModel.swift; sourceTree = "<group>"; };
+		0A357DC11F029610000070D0 /* ArchivePresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArchivePresenter.swift; sourceTree = "<group>"; };
+		0A357DC31F0297EA000070D0 /* ArchiveDBModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArchiveDBModel.swift; sourceTree = "<group>"; };
+		0A38DC641ECC10F7009C3F3B /* ArchiveVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArchiveVC.swift; sourceTree = "<group>"; };
+		0A3C3E841EC70F5700710D9D /* ProtocolCallBackController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProtocolCallBackController.swift; sourceTree = "<group>"; };
+		0A3C3E871EC741FE00710D9D /* SlideViewMenu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SlideViewMenu.swift; sourceTree = "<group>"; };
+		0A3C3E891EC743E200710D9D /* SlideViewMenuCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SlideViewMenuCell.swift; sourceTree = "<group>"; };
+		0A40617A1ED46BEE000D503F /* TrashView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrashView.swift; sourceTree = "<group>"; };
+		0A49F9821EE57B7A00F6A75B /* PopUpDeleteVC.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = PopUpDeleteVC.storyboard; sourceTree = "<group>"; };
+		0A49F9841EE57CD900F6A75B /* PopUpDeleteVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopUpDeleteVC.swift; sourceTree = "<group>"; };
+		0A49F9861EE57E0600F6A75B /* PopUpDeleteVCCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopUpDeleteVCCell.swift; sourceTree = "<group>"; };
+		0A4B2CE71ED5600E001AA5FE /* ReminderPopUpView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReminderPopUpView.swift; sourceTree = "<group>"; };
+		0A4B2CE91ED5BA7D001AA5FE /* PopUpTableVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopUpTableVC.swift; sourceTree = "<group>"; };
+		0A4B2CED1ED5C1D1001AA5FE /* PopupController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopupController.swift; sourceTree = "<group>"; };
+		0A4C6CD71ECEF330003F3984 /* LaunchScreenViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LaunchScreenViewController.swift; sourceTree = "<group>"; };
+		0A52ECED1EC574B700038D72 /* SanjuMainToDoApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SanjuMainToDoApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A52ECF01EC574B700038D72 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0A52ECF21EC574B700038D72 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		0A52ECF51EC574B700038D72 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0A52ECF81EC574B800038D72 /* SanjuMainToDoApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SanjuMainToDoApp.xcdatamodel; sourceTree = "<group>"; };
+		0A52ECFA1EC574B800038D72 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0A52ECFD1EC574B800038D72 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0A52ECFF1EC574B800038D72 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0A52ED041EC574B900038D72 /* SanjuMainToDoAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SanjuMainToDoAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A52ED081EC574B900038D72 /* SanjuMainToDoAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SanjuMainToDoAppTests.swift; sourceTree = "<group>"; };
+		0A52ED0A1EC574B900038D72 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0A52ED0F1EC574B900038D72 /* SanjuMainToDoAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SanjuMainToDoAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A52ED131EC574B900038D72 /* SanjuMainToDoAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SanjuMainToDoAppUITests.swift; sourceTree = "<group>"; };
+		0A52ED151EC574B900038D72 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0A52ED291EC58DBA00038D72 /* FloatLabelTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FloatLabelTextField.swift; sourceTree = "<group>"; };
+		0A52ED2B1EC5907800038D72 /* LoginPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginPresenter.swift; sourceTree = "<group>"; };
+		0A52ED2D1EC5B71300038D72 /* RegisterView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterView.swift; sourceTree = "<group>"; };
+		0A52ED2F1EC5BD7C00038D72 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		0A52ED341EC5DB0900038D72 /* MBProgressHUD.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		0A52ED351EC5DB1800038D72 /* SanjuMainToDoApp-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SanjuMainToDoApp-Bridging-Header.h"; sourceTree = "<group>"; };
+		0A52ED361EC5DB1900038D72 /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		0A52ED391EC5E1FE00038D72 /* SWRevealViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
+		0A52ED3A1EC5E20F00038D72 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
+		0A52ED3C1EC5E6AC00038D72 /* CollectionTableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionTableView.swift; sourceTree = "<group>"; };
+		0A52ED401EC5F45C00038D72 /* RegisterPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterPresenter.swift; sourceTree = "<group>"; };
+		0A52ED421EC5F6FD00038D72 /* RegisterModelData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterModelData.swift; sourceTree = "<group>"; };
+		0A58B3B31ED6AAF700942BEF /* PopUpTableVC.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = PopUpTableVC.storyboard; sourceTree = "<group>"; };
+		0A58B3B51ED6AF3600942BEF /* PopUpTableVCCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopUpTableVCCell.swift; sourceTree = "<group>"; };
+		0A58B3BB1ED6E30500942BEF /* PopUpDatePickVC.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = PopUpDatePickVC.storyboard; sourceTree = "<group>"; };
+		0A58B3BD1ED6E3B100942BEF /* PopUpDatePickVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopUpDatePickVC.swift; sourceTree = "<group>"; };
+		0A58B3BF1ED6E6FA00942BEF /* PopUpDatePickVCCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopUpDatePickVCCell.swift; sourceTree = "<group>"; };
+		0A58B3C11ED6F54800942BEF /* PopUpReminderVC.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = PopUpReminderVC.storyboard; sourceTree = "<group>"; };
+		0A58B3C31ED6F64800942BEF /* PopUpReminderVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopUpReminderVC.swift; sourceTree = "<group>"; };
+		0A58B3C51ED6F6BC00942BEF /* PopUpReminderVCCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopUpReminderVCCell.swift; sourceTree = "<group>"; };
+		0A86E78B1EC972A4006F541F /* AddNotesView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddNotesView.swift; sourceTree = "<group>"; };
+		0ABCF2771EEE96C900711361 /* FSCalendarVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FSCalendarVC.swift; sourceTree = "<group>"; };
+		0ABCF2CA1EEED27900711361 /* FSCalendarVC.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = FSCalendarVC.storyboard; sourceTree = "<group>"; };
+		0AFACA1C1EEBAE8A00421AA4 /* ImageCropView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageCropView.m; sourceTree = "<group>"; };
+		0AFACA1D1EEBAE8A00421AA4 /* ImageCropView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageCropView.h; sourceTree = "<group>"; };
+		0AFACA1F1EEBAE9900421AA4 /* FXBlurView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FXBlurView.m; sourceTree = "<group>"; };
+		0AFACA201EEBAE9900421AA4 /* FXBlurView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FXBlurView.h; sourceTree = "<group>"; };
+		0AFD47651EE14CF1003B279A /* RemindMeCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RemindMeCell.swift; sourceTree = "<group>"; };
+		0AFD47661EE14CF1003B279A /* RemindMeCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RemindMeCell.xib; sourceTree = "<group>"; };
+		0AFD47691EE1706B003B279A /* WaterfallCollectionViewLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WaterfallCollectionViewLayout.swift; sourceTree = "<group>"; };
+		0ECB14D1E1FD1DE9F3C71A3D /* Pods-SanjuMainToDoAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SanjuMainToDoAppTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SanjuMainToDoAppTests/Pods-SanjuMainToDoAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		1797D0B934EEF61C61D8F3CF /* Pods_SanjuMainToDoAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SanjuMainToDoAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		619AF7DAD5B1BF9ABFA91E39 /* Pods-SanjuMainToDoAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SanjuMainToDoAppUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SanjuMainToDoAppUITests/Pods-SanjuMainToDoAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		6E5BDB6CE8D23B46E0CFCD07 /* Pods-SanjuMainToDoAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SanjuMainToDoAppTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SanjuMainToDoAppTests/Pods-SanjuMainToDoAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		84241E041EF26ED800716D6A /* CustomTimeClockView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTimeClockView.swift; sourceTree = "<group>"; };
+		84C6FD6C1EF4FAE700462F02 /* ColorPickerView.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = ColorPickerView.storyboard; sourceTree = "<group>"; };
+		84C6FD6E1EF4FC1900462F02 /* ColorPickerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorPickerView.swift; sourceTree = "<group>"; };
+		84C6FD701EF4FD2900462F02 /* ColorPickerViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorPickerViewCell.swift; sourceTree = "<group>"; };
+		84C6FD721EF500D000462F02 /* ColorPickerExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorPickerExtension.swift; sourceTree = "<group>"; };
+		84D184911F03D8C000E20E4F /* ESTimePicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ESTimePicker.m; path = "../../../../ESTimePicker-master 3/Classes/ESTimePicker.m"; sourceTree = "<group>"; };
+		84D184931F03D8C600E20E4F /* ESTimePicker.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ESTimePicker.h; path = "../../../../ESTimePicker-master 3/Classes/ESTimePicker.h"; sourceTree = "<group>"; };
+		84D184941F03D8CC00E20E4F /* ESMathUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ESMathUtils.m; path = "../../../../ESTimePicker-master 3/Classes/ESMathUtils.m"; sourceTree = "<group>"; };
+		84D184961F03D8D100E20E4F /* ESMathUtils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ESMathUtils.h; path = "../../../../ESTimePicker-master 3/Classes/ESMathUtils.h"; sourceTree = "<group>"; };
+		84DCAA9D1EFA73CE00448830 /* CellDeleteForever.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = CellDeleteForever.storyboard; sourceTree = "<group>"; };
+		84DCAA9F1EFA746100448830 /* CellDeleteForever.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CellDeleteForever.swift; sourceTree = "<group>"; };
+		84DCAAA11EFA754C00448830 /* DeleteForeverCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeleteForeverCell.swift; sourceTree = "<group>"; };
+		84DE07261EFCCA5200405044 /* ForgotPasswordController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ForgotPasswordController.swift; sourceTree = "<group>"; };
+		84DE07281EFCDDC300405044 /* ForgotPasswordPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ForgotPasswordPresenter.swift; sourceTree = "<group>"; };
+		84DE072E1EFD4D9600405044 /* AddNotePresenterController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddNotePresenterController.swift; sourceTree = "<group>"; };
+		84DE07301EFD5D0600405044 /* AddNotesModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddNotesModel.swift; sourceTree = "<group>"; };
+		84E67C6D1EFB8E5600488C6E /* ArchiveReminderCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArchiveReminderCell.swift; sourceTree = "<group>"; };
+		84E67C6E1EFB8E5600488C6E /* ArchiveReminderCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ArchiveReminderCell.xib; sourceTree = "<group>"; };
+		84F09A061EF3F892005B6BDF /* CustomTimeClockView.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = CustomTimeClockView.storyboard; sourceTree = "<group>"; };
+		994B0182E63A6B9748D877B5 /* Pods_SanjuMainToDoAppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SanjuMainToDoAppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC4F78F895653AA572C49358 /* Pods-SanjuMainToDoAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SanjuMainToDoAppUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SanjuMainToDoAppUITests/Pods-SanjuMainToDoAppUITests.release.xcconfig"; sourceTree = "<group>"; };
+		C93E49FB0CA8AA873EB7F9B1 /* Pods_SanjuMainToDoApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SanjuMainToDoApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC6254D881AE24D02B7AB3A7 /* Pods-SanjuMainToDoApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SanjuMainToDoApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-SanjuMainToDoApp/Pods-SanjuMainToDoApp.release.xcconfig"; sourceTree = "<group>"; };
+		E34098F39204516DA44B8A24 /* Pods-SanjuMainToDoApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SanjuMainToDoApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SanjuMainToDoApp/Pods-SanjuMainToDoApp.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0A52ECEA1EC574B700038D72 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7590F82E0DDD3FD9D22AA45B /* Pods_SanjuMainToDoApp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A52ED011EC574B900038D72 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62545148C7A5F7A44AC707D9 /* Pods_SanjuMainToDoAppTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A52ED0C1EC574B900038D72 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				709CE0F92CD87844C791CCCF /* Pods_SanjuMainToDoAppUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0A357DC01F029573000070D0 /* Archive */ = {
+			isa = PBXGroup;
+			children = (
+				0A38DC641ECC10F7009C3F3B /* ArchiveVC.swift */,
+				0A357DC11F029610000070D0 /* ArchivePresenter.swift */,
+				0A357DC31F0297EA000070D0 /* ArchiveDBModel.swift */,
+			);
+			name = Archive;
+			sourceTree = "<group>";
+		};
+		0A3C3E831EC70EF100710D9D /* ProtocolFunc */ = {
+			isa = PBXGroup;
+			children = (
+				0A3C3E841EC70F5700710D9D /* ProtocolCallBackController.swift */,
+			);
+			name = ProtocolFunc;
+			sourceTree = "<group>";
+		};
+		0A3C3E861EC730F000710D9D /* SWRevealViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				0A52ED3A1EC5E20F00038D72 /* SWRevealViewController.m */,
+				0A52ED391EC5E1FE00038D72 /* SWRevealViewController.h */,
+			);
+			name = SWRevealViewControllers;
+			sourceTree = "<group>";
+		};
+		0A4C6CD61ECEF2E8003F3984 /* LauncScreenView */ = {
+			isa = PBXGroup;
+			children = (
+				0A4C6CD71ECEF330003F3984 /* LaunchScreenViewController.swift */,
+			);
+			name = LauncScreenView;
+			sourceTree = "<group>";
+		};
+		0A52ECE41EC574B600038D72 = {
+			isa = PBXGroup;
+			children = (
+				0A52ECEF1EC574B700038D72 /* SanjuMainToDoApp */,
+				0A52ED071EC574B900038D72 /* SanjuMainToDoAppTests */,
+				0A52ED121EC574B900038D72 /* SanjuMainToDoAppUITests */,
+				0A52ECEE1EC574B700038D72 /* Products */,
+				55A0853DC3C9FFBDF187FA6B /* Pods */,
+				1E9D441B13FF71B1AF8FA4C8 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		0A52ECEE1EC574B700038D72 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0A52ECED1EC574B700038D72 /* SanjuMainToDoApp.app */,
+				0A52ED041EC574B900038D72 /* SanjuMainToDoAppTests.xctest */,
+				0A52ED0F1EC574B900038D72 /* SanjuMainToDoAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0A52ECEF1EC574B700038D72 /* SanjuMainToDoApp */ = {
+			isa = PBXGroup;
+			children = (
+				84F09A081EF4177F005B6BDF /* TimeClockFile */,
+				0AFACA1B1EEBAE6E00421AA4 /* ImageCropView */,
+				0A4C6CD61ECEF2E8003F3984 /* LauncScreenView */,
+				0A86E78F1EC99219006F541F /* CollectionLayout */,
+				0A3C3E861EC730F000710D9D /* SWRevealViewControllers */,
+				0A3C3E831EC70EF100710D9D /* ProtocolFunc */,
+				0A52ED331EC5DAF300038D72 /* MBProgressLibrary */,
+				0A52ED221EC5754500038D72 /* ToDoProjectClasses */,
+				0A52ED211EC574F300038D72 /* mainfile */,
+			);
+			path = SanjuMainToDoApp;
+			sourceTree = "<group>";
+		};
+		0A52ED071EC574B900038D72 /* SanjuMainToDoAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				0A52ED081EC574B900038D72 /* SanjuMainToDoAppTests.swift */,
+				0A52ED0A1EC574B900038D72 /* Info.plist */,
+			);
+			path = SanjuMainToDoAppTests;
+			sourceTree = "<group>";
+		};
+		0A52ED121EC574B900038D72 /* SanjuMainToDoAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0A52ED131EC574B900038D72 /* SanjuMainToDoAppUITests.swift */,
+				0A52ED151EC574B900038D72 /* Info.plist */,
+			);
+			path = SanjuMainToDoAppUITests;
+			sourceTree = "<group>";
+		};
+		0A52ED211EC574F300038D72 /* mainfile */ = {
+			isa = PBXGroup;
+			children = (
+				84DE072D1EFCE85900405044 /* storybordViewController */,
+				0A52ECF41EC574B700038D72 /* Main.storyboard */,
+				0A52ED2F1EC5BD7C00038D72 /* GoogleService-Info.plist */,
+				0A52ED291EC58DBA00038D72 /* FloatLabelTextField.swift */,
+				0A52ECFF1EC574B800038D72 /* Info.plist */,
+				0A52ECF71EC574B800038D72 /* SanjuMainToDoApp.xcdatamodeld */,
+				0A52ECFA1EC574B800038D72 /* Assets.xcassets */,
+				0A52ECF01EC574B700038D72 /* AppDelegate.swift */,
+			);
+			name = mainfile;
+			sourceTree = "<group>";
+		};
+		0A52ED221EC5754500038D72 /* ToDoProjectClasses */ = {
+			isa = PBXGroup;
+			children = (
+				0A357DC01F029573000070D0 /* Archive */,
+				0ABC9EDF1EFE2F08000F081A /* addNotesController */,
+				84DE072C1EFCE7EE00405044 /* UserRegister */,
+				84DE072B1EFCE7A600405044 /* UserLogin */,
+				84DE072A1EFCE73F00405044 /* ForgotPassword */,
+				0A4B2CED1ED5C1D1001AA5FE /* PopupController.swift */,
+				0A52ED3C1EC5E6AC00038D72 /* CollectionTableView.swift */,
+				0A3C3E871EC741FE00710D9D /* SlideViewMenu.swift */,
+				0A3C3E891EC743E200710D9D /* SlideViewMenuCell.swift */,
+				0A2BE9151ECD828A0044DDC7 /* SearchVC.swift */,
+				0A2BE9171ECDD65D0044DDC7 /* RemindersVC.swift */,
+				0A40617A1ED46BEE000D503F /* TrashView.swift */,
+				0A4B2CE71ED5600E001AA5FE /* ReminderPopUpView.swift */,
+				0A4B2CE91ED5BA7D001AA5FE /* PopUpTableVC.swift */,
+				0A58B3B51ED6AF3600942BEF /* PopUpTableVCCell.swift */,
+				0A58B3BD1ED6E3B100942BEF /* PopUpDatePickVC.swift */,
+				0A58B3BF1ED6E6FA00942BEF /* PopUpDatePickVCCell.swift */,
+				0A58B3C31ED6F64800942BEF /* PopUpReminderVC.swift */,
+				0A58B3C51ED6F6BC00942BEF /* PopUpReminderVCCell.swift */,
+				0AFD47651EE14CF1003B279A /* RemindMeCell.swift */,
+				0AFD47661EE14CF1003B279A /* RemindMeCell.xib */,
+				0A49F9841EE57CD900F6A75B /* PopUpDeleteVC.swift */,
+				0A49F9861EE57E0600F6A75B /* PopUpDeleteVCCell.swift */,
+				0ABCF2771EEE96C900711361 /* FSCalendarVC.swift */,
+				84241E041EF26ED800716D6A /* CustomTimeClockView.swift */,
+				84C6FD6E1EF4FC1900462F02 /* ColorPickerView.swift */,
+				84C6FD701EF4FD2900462F02 /* ColorPickerViewCell.swift */,
+				84C6FD721EF500D000462F02 /* ColorPickerExtension.swift */,
+				84DCAA9F1EFA746100448830 /* CellDeleteForever.swift */,
+				84DCAAA11EFA754C00448830 /* DeleteForeverCell.swift */,
+				84E67C6D1EFB8E5600488C6E /* ArchiveReminderCell.swift */,
+				84E67C6E1EFB8E5600488C6E /* ArchiveReminderCell.xib */,
+			);
+			name = ToDoProjectClasses;
+			sourceTree = "<group>";
+		};
+		0A52ED331EC5DAF300038D72 /* MBProgressLibrary */ = {
+			isa = PBXGroup;
+			children = (
+				0A52ED361EC5DB1900038D72 /* MBProgressHUD.m */,
+				0A52ED341EC5DB0900038D72 /* MBProgressHUD.h */,
+				0A52ED351EC5DB1800038D72 /* SanjuMainToDoApp-Bridging-Header.h */,
+			);
+			name = MBProgressLibrary;
+			sourceTree = "<group>";
+		};
+		0A86E78F1EC99219006F541F /* CollectionLayout */ = {
+			isa = PBXGroup;
+			children = (
+				0AFD47691EE1706B003B279A /* WaterfallCollectionViewLayout.swift */,
+			);
+			name = CollectionLayout;
+			sourceTree = "<group>";
+		};
+		0ABC9EDF1EFE2F08000F081A /* addNotesController */ = {
+			isa = PBXGroup;
+			children = (
+				84DE07301EFD5D0600405044 /* AddNotesModel.swift */,
+				84DE072E1EFD4D9600405044 /* AddNotePresenterController.swift */,
+				0A86E78B1EC972A4006F541F /* AddNotesView.swift */,
+			);
+			name = addNotesController;
+			sourceTree = "<group>";
+		};
+		0AFACA1B1EEBAE6E00421AA4 /* ImageCropView */ = {
+			isa = PBXGroup;
+			children = (
+				0AFACA1C1EEBAE8A00421AA4 /* ImageCropView.m */,
+				0AFACA1D1EEBAE8A00421AA4 /* ImageCropView.h */,
+				0AFACA1F1EEBAE9900421AA4 /* FXBlurView.m */,
+				0AFACA201EEBAE9900421AA4 /* FXBlurView.h */,
+			);
+			name = ImageCropView;
+			sourceTree = "<group>";
+		};
+		1E9D441B13FF71B1AF8FA4C8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C93E49FB0CA8AA873EB7F9B1 /* Pods_SanjuMainToDoApp.framework */,
+				1797D0B934EEF61C61D8F3CF /* Pods_SanjuMainToDoAppTests.framework */,
+				994B0182E63A6B9748D877B5 /* Pods_SanjuMainToDoAppUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		55A0853DC3C9FFBDF187FA6B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E34098F39204516DA44B8A24 /* Pods-SanjuMainToDoApp.debug.xcconfig */,
+				DC6254D881AE24D02B7AB3A7 /* Pods-SanjuMainToDoApp.release.xcconfig */,
+				6E5BDB6CE8D23B46E0CFCD07 /* Pods-SanjuMainToDoAppTests.debug.xcconfig */,
+				0ECB14D1E1FD1DE9F3C71A3D /* Pods-SanjuMainToDoAppTests.release.xcconfig */,
+				619AF7DAD5B1BF9ABFA91E39 /* Pods-SanjuMainToDoAppUITests.debug.xcconfig */,
+				AC4F78F895653AA572C49358 /* Pods-SanjuMainToDoAppUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		84DE072A1EFCE73F00405044 /* ForgotPassword */ = {
+			isa = PBXGroup;
+			children = (
+				84DE07281EFCDDC300405044 /* ForgotPasswordPresenter.swift */,
+				84DE07261EFCCA5200405044 /* ForgotPasswordController.swift */,
+				0A357DBE1F0287AC000070D0 /* ForgotPassDBModel.swift */,
+			);
+			name = ForgotPassword;
+			sourceTree = "<group>";
+		};
+		84DE072B1EFCE7A600405044 /* UserLogin */ = {
+			isa = PBXGroup;
+			children = (
+				0A52ED2B1EC5907800038D72 /* LoginPresenter.swift */,
+				0A52ECF21EC574B700038D72 /* LoginView.swift */,
+			);
+			name = UserLogin;
+			sourceTree = "<group>";
+		};
+		84DE072C1EFCE7EE00405044 /* UserRegister */ = {
+			isa = PBXGroup;
+			children = (
+				0A52ED421EC5F6FD00038D72 /* RegisterModelData.swift */,
+				0A52ED401EC5F45C00038D72 /* RegisterPresenter.swift */,
+				0A52ED2D1EC5B71300038D72 /* RegisterView.swift */,
+			);
+			name = UserRegister;
+			sourceTree = "<group>";
+		};
+		84DE072D1EFCE85900405044 /* storybordViewController */ = {
+			isa = PBXGroup;
+			children = (
+				0A52ECFC1EC574B800038D72 /* LaunchScreen.storyboard */,
+				0A58B3B31ED6AAF700942BEF /* PopUpTableVC.storyboard */,
+				0A58B3BB1ED6E30500942BEF /* PopUpDatePickVC.storyboard */,
+				0A58B3C11ED6F54800942BEF /* PopUpReminderVC.storyboard */,
+				0A49F9821EE57B7A00F6A75B /* PopUpDeleteVC.storyboard */,
+				84DCAA9D1EFA73CE00448830 /* CellDeleteForever.storyboard */,
+				0ABCF2CA1EEED27900711361 /* FSCalendarVC.storyboard */,
+				84F09A061EF3F892005B6BDF /* CustomTimeClockView.storyboard */,
+				84C6FD6C1EF4FAE700462F02 /* ColorPickerView.storyboard */,
+			);
+			name = storybordViewController;
+			sourceTree = "<group>";
+		};
+		84F09A081EF4177F005B6BDF /* TimeClockFile */ = {
+			isa = PBXGroup;
+			children = (
+				84D184961F03D8D100E20E4F /* ESMathUtils.h */,
+				84D184941F03D8CC00E20E4F /* ESMathUtils.m */,
+				84D184931F03D8C600E20E4F /* ESTimePicker.h */,
+				84D184911F03D8C000E20E4F /* ESTimePicker.m */,
+			);
+			name = TimeClockFile;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0A52ECEC1EC574B700038D72 /* SanjuMainToDoApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0A52ED181EC574B900038D72 /* Build configuration list for PBXNativeTarget "SanjuMainToDoApp" */;
+			buildPhases = (
+				AA290CBE3CF113A6492FF0BA /* [CP] Check Pods Manifest.lock */,
+				0A52ECE91EC574B700038D72 /* Sources */,
+				0A52ECEA1EC574B700038D72 /* Frameworks */,
+				0A52ECEB1EC574B700038D72 /* Resources */,
+				B12F7B0075E584A8B4735808 /* [CP] Embed Pods Frameworks */,
+				C3A9253D281AF685E8005F4F /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SanjuMainToDoApp;
+			productName = SanjuMainToDoApp;
+			productReference = 0A52ECED1EC574B700038D72 /* SanjuMainToDoApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0A52ED031EC574B900038D72 /* SanjuMainToDoAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0A52ED1B1EC574B900038D72 /* Build configuration list for PBXNativeTarget "SanjuMainToDoAppTests" */;
+			buildPhases = (
+				C3348AAC0E22B9458B0B7309 /* [CP] Check Pods Manifest.lock */,
+				0A52ED001EC574B900038D72 /* Sources */,
+				0A52ED011EC574B900038D72 /* Frameworks */,
+				0A52ED021EC574B900038D72 /* Resources */,
+				315A482A48DB117AF1E750F9 /* [CP] Embed Pods Frameworks */,
+				EEDB4311DF010F437F253F58 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0A52ED061EC574B900038D72 /* PBXTargetDependency */,
+			);
+			name = SanjuMainToDoAppTests;
+			productName = SanjuMainToDoAppTests;
+			productReference = 0A52ED041EC574B900038D72 /* SanjuMainToDoAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0A52ED0E1EC574B900038D72 /* SanjuMainToDoAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0A52ED1E1EC574B900038D72 /* Build configuration list for PBXNativeTarget "SanjuMainToDoAppUITests" */;
+			buildPhases = (
+				ECAA60863F4CE7ADE0F160A6 /* [CP] Check Pods Manifest.lock */,
+				0A52ED0B1EC574B900038D72 /* Sources */,
+				0A52ED0C1EC574B900038D72 /* Frameworks */,
+				0A52ED0D1EC574B900038D72 /* Resources */,
+				8398B181948CEDCACE48EE08 /* [CP] Embed Pods Frameworks */,
+				B361283A2099020FC44880DA /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0A52ED111EC574B900038D72 /* PBXTargetDependency */,
+			);
+			name = SanjuMainToDoAppUITests;
+			productName = SanjuMainToDoAppUITests;
+			productReference = 0A52ED0F1EC574B900038D72 /* SanjuMainToDoAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0A52ECE51EC574B700038D72 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "BridgeLabz Solutions LLP";
+				TargetAttributes = {
+					0A52ECEC1EC574B700038D72 = {
+						CreatedOnToolsVersion = 8.1;
+						LastSwiftMigration = 0810;
+						ProvisioningStyle = Automatic;
+					};
+					0A52ED031EC574B900038D72 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 0A52ECEC1EC574B700038D72;
+					};
+					0A52ED0E1EC574B900038D72 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 0A52ECEC1EC574B700038D72;
+					};
+				};
+			};
+			buildConfigurationList = 0A52ECE81EC574B700038D72 /* Build configuration list for PBXProject "SanjuMainToDoApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0A52ECE41EC574B600038D72;
+			productRefGroup = 0A52ECEE1EC574B700038D72 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0A52ECEC1EC574B700038D72 /* SanjuMainToDoApp */,
+				0A52ED031EC574B900038D72 /* SanjuMainToDoAppTests */,
+				0A52ED0E1EC574B900038D72 /* SanjuMainToDoAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0A52ECEB1EC574B700038D72 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0AFD47681EE14CF1003B279A /* RemindMeCell.xib in Resources */,
+				0A52ECFE1EC574B800038D72 /* LaunchScreen.storyboard in Resources */,
+				0ABCF2CB1EEED27900711361 /* FSCalendarVC.storyboard in Resources */,
+				0A52ECFB1EC574B800038D72 /* Assets.xcassets in Resources */,
+				84E67C701EFB8E5600488C6E /* ArchiveReminderCell.xib in Resources */,
+				0A58B3B41ED6AAF700942BEF /* PopUpTableVC.storyboard in Resources */,
+				0A58B3BC1ED6E30500942BEF /* PopUpDatePickVC.storyboard in Resources */,
+				0A58B3C21ED6F54800942BEF /* PopUpReminderVC.storyboard in Resources */,
+				0A49F9831EE57B7A00F6A75B /* PopUpDeleteVC.storyboard in Resources */,
+				0A52ECF61EC574B700038D72 /* Main.storyboard in Resources */,
+				84C6FD6D1EF4FAE700462F02 /* ColorPickerView.storyboard in Resources */,
+				0A52ED301EC5BD7C00038D72 /* GoogleService-Info.plist in Resources */,
+				84DCAA9E1EFA73CE00448830 /* CellDeleteForever.storyboard in Resources */,
+				84F09A071EF3F892005B6BDF /* CustomTimeClockView.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A52ED021EC574B900038D72 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A52ED0D1EC574B900038D72 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		315A482A48DB117AF1E750F9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SanjuMainToDoAppTests/Pods-SanjuMainToDoAppTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8398B181948CEDCACE48EE08 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SanjuMainToDoAppUITests/Pods-SanjuMainToDoAppUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AA290CBE3CF113A6492FF0BA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B12F7B0075E584A8B4735808 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SanjuMainToDoApp/Pods-SanjuMainToDoApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B361283A2099020FC44880DA /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SanjuMainToDoAppUITests/Pods-SanjuMainToDoAppUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C3348AAC0E22B9458B0B7309 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C3A9253D281AF685E8005F4F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SanjuMainToDoApp/Pods-SanjuMainToDoApp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ECAA60863F4CE7ADE0F160A6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		EEDB4311DF010F437F253F58 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SanjuMainToDoAppTests/Pods-SanjuMainToDoAppTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0A52ECE91EC574B700038D72 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84DE07311EFD5D0600405044 /* AddNotesModel.swift in Sources */,
+				0A58B3C01ED6E6FA00942BEF /* PopUpDatePickVCCell.swift in Sources */,
+				0A52ECF91EC574B800038D72 /* SanjuMainToDoApp.xcdatamodeld in Sources */,
+				0A52ECF31EC574B700038D72 /* LoginView.swift in Sources */,
+				0A357DBF1F0287AC000070D0 /* ForgotPassDBModel.swift in Sources */,
+				0A58B3BE1ED6E3B100942BEF /* PopUpDatePickVC.swift in Sources */,
+				0A52ECF11EC574B700038D72 /* AppDelegate.swift in Sources */,
+				84DCAAA01EFA746100448830 /* CellDeleteForever.swift in Sources */,
+				0A49F9851EE57CD900F6A75B /* PopUpDeleteVC.swift in Sources */,
+				84C6FD711EF4FD2900462F02 /* ColorPickerViewCell.swift in Sources */,
+				84D184921F03D8C000E20E4F /* ESTimePicker.m in Sources */,
+				0A52ED411EC5F45C00038D72 /* RegisterPresenter.swift in Sources */,
+				0A52ED2E1EC5B71300038D72 /* RegisterView.swift in Sources */,
+				0A38DC651ECC10F7009C3F3B /* ArchiveVC.swift in Sources */,
+				0A357DC21F029610000070D0 /* ArchivePresenter.swift in Sources */,
+				84E67C6F1EFB8E5600488C6E /* ArchiveReminderCell.swift in Sources */,
+				0A40617B1ED46BEF000D503F /* TrashView.swift in Sources */,
+				0A3C3E8A1EC743E200710D9D /* SlideViewMenuCell.swift in Sources */,
+				0A3C3E881EC741FE00710D9D /* SlideViewMenu.swift in Sources */,
+				84C6FD6F1EF4FC1900462F02 /* ColorPickerView.swift in Sources */,
+				0A2BE9181ECDD65D0044DDC7 /* RemindersVC.swift in Sources */,
+				0AFD476A1EE1706B003B279A /* WaterfallCollectionViewLayout.swift in Sources */,
+				0A4B2CE81ED5600E001AA5FE /* ReminderPopUpView.swift in Sources */,
+				0A52ED3B1EC5E20F00038D72 /* SWRevealViewController.m in Sources */,
+				0AFACA211EEBAE9900421AA4 /* FXBlurView.m in Sources */,
+				0A4B2CEE1ED5C1D1001AA5FE /* PopupController.swift in Sources */,
+				0A52ED2A1EC58DBA00038D72 /* FloatLabelTextField.swift in Sources */,
+				84DE07291EFCDDC300405044 /* ForgotPasswordPresenter.swift in Sources */,
+				0A49F9871EE57E0600F6A75B /* PopUpDeleteVCCell.swift in Sources */,
+				84241E051EF26ED800716D6A /* CustomTimeClockView.swift in Sources */,
+				0A4B2CEA1ED5BA7D001AA5FE /* PopUpTableVC.swift in Sources */,
+				0AFACA1E1EEBAE8A00421AA4 /* ImageCropView.m in Sources */,
+				0A357DC41F0297EA000070D0 /* ArchiveDBModel.swift in Sources */,
+				0A52ED3D1EC5E6AC00038D72 /* CollectionTableView.swift in Sources */,
+				0A58B3C41ED6F64800942BEF /* PopUpReminderVC.swift in Sources */,
+				0A58B3C61ED6F6BC00942BEF /* PopUpReminderVCCell.swift in Sources */,
+				84D184951F03D8CC00E20E4F /* ESMathUtils.m in Sources */,
+				0A86E78C1EC972A4006F541F /* AddNotesView.swift in Sources */,
+				0ABCF2781EEE96C900711361 /* FSCalendarVC.swift in Sources */,
+				0A52ED2C1EC5907800038D72 /* LoginPresenter.swift in Sources */,
+				0A2BE9161ECD828A0044DDC7 /* SearchVC.swift in Sources */,
+				0A52ED431EC5F6FD00038D72 /* RegisterModelData.swift in Sources */,
+				0A52ED371EC5DB1900038D72 /* MBProgressHUD.m in Sources */,
+				84DCAAA21EFA754C00448830 /* DeleteForeverCell.swift in Sources */,
+				0AFD47671EE14CF1003B279A /* RemindMeCell.swift in Sources */,
+				0A4C6CD81ECEF330003F3984 /* LaunchScreenViewController.swift in Sources */,
+				84C6FD731EF500D000462F02 /* ColorPickerExtension.swift in Sources */,
+				0A58B3B61ED6AF3600942BEF /* PopUpTableVCCell.swift in Sources */,
+				0A3C3E851EC70F5700710D9D /* ProtocolCallBackController.swift in Sources */,
+				84DE07271EFCCA5200405044 /* ForgotPasswordController.swift in Sources */,
+				84DE072F1EFD4D9600405044 /* AddNotePresenterController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A52ED001EC574B900038D72 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A52ED091EC574B900038D72 /* SanjuMainToDoAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A52ED0B1EC574B900038D72 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A52ED141EC574B900038D72 /* SanjuMainToDoAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0A52ED061EC574B900038D72 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0A52ECEC1EC574B700038D72 /* SanjuMainToDoApp */;
+			targetProxy = 0A52ED051EC574B900038D72 /* PBXContainerItemProxy */;
+		};
+		0A52ED111EC574B900038D72 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0A52ECEC1EC574B700038D72 /* SanjuMainToDoApp */;
+			targetProxy = 0A52ED101EC574B900038D72 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0A52ECF41EC574B700038D72 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0A52ECF51EC574B700038D72 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0A52ECFC1EC574B800038D72 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0A52ECFD1EC574B800038D72 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0A52ED161EC574B900038D72 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0A52ED171EC574B900038D72 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0A52ED191EC574B900038D72 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E34098F39204516DA44B8A24 /* Pods-SanjuMainToDoApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = SanjuMainToDoApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Sanjeev.SanjuMainToDoApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "SanjuMainToDoApp/SanjuMainToDoApp-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		0A52ED1A1EC574B900038D72 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DC6254D881AE24D02B7AB3A7 /* Pods-SanjuMainToDoApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = SanjuMainToDoApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Sanjeev.SanjuMainToDoApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "SanjuMainToDoApp/SanjuMainToDoApp-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		0A52ED1C1EC574B900038D72 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6E5BDB6CE8D23B46E0CFCD07 /* Pods-SanjuMainToDoAppTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SanjuMainToDoAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Sanjeev.SanjuMainToDoAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SanjuMainToDoApp.app/SanjuMainToDoApp";
+			};
+			name = Debug;
+		};
+		0A52ED1D1EC574B900038D72 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0ECB14D1E1FD1DE9F3C71A3D /* Pods-SanjuMainToDoAppTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SanjuMainToDoAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Sanjeev.SanjuMainToDoAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SanjuMainToDoApp.app/SanjuMainToDoApp";
+			};
+			name = Release;
+		};
+		0A52ED1F1EC574B900038D72 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 619AF7DAD5B1BF9ABFA91E39 /* Pods-SanjuMainToDoAppUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = SanjuMainToDoAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Sanjeev.SanjuMainToDoAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = SanjuMainToDoApp;
+			};
+			name = Debug;
+		};
+		0A52ED201EC574B900038D72 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AC4F78F895653AA572C49358 /* Pods-SanjuMainToDoAppUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = SanjuMainToDoAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Sanjeev.SanjuMainToDoAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = SanjuMainToDoApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0A52ECE81EC574B700038D72 /* Build configuration list for PBXProject "SanjuMainToDoApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A52ED161EC574B900038D72 /* Debug */,
+				0A52ED171EC574B900038D72 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0A52ED181EC574B900038D72 /* Build configuration list for PBXNativeTarget "SanjuMainToDoApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A52ED191EC574B900038D72 /* Debug */,
+				0A52ED1A1EC574B900038D72 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0A52ED1B1EC574B900038D72 /* Build configuration list for PBXNativeTarget "SanjuMainToDoAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A52ED1C1EC574B900038D72 /* Debug */,
+				0A52ED1D1EC574B900038D72 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0A52ED1E1EC574B900038D72 /* Build configuration list for PBXNativeTarget "SanjuMainToDoAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A52ED1F1EC574B900038D72 /* Debug */,
+				0A52ED201EC574B900038D72 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		0A52ECF71EC574B800038D72 /* SanjuMainToDoApp.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				0A52ECF81EC574B800038D72 /* SanjuMainToDoApp.xcdatamodel */,
+			);
+			currentVersion = 0A52ECF81EC574B800038D72 /* SanjuMainToDoApp.xcdatamodel */;
+			path = SanjuMainToDoApp.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 0A52ECE51EC574B700038D72 /* Project object */;
+}

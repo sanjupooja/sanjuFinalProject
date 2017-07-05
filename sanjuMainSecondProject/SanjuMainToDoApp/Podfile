@@ -1,0 +1,33 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+source 'https://github.com/CocoaPods/Specs.git'
+target 'SanjuMainToDoApp' do
+  # Comment the next line if you're not using Swift and don't want to use dynamic frameworks
+  use_frameworks!
+
+pod 'FSCalendar'
+pod ‘Canvas’
+pod 'TextFieldEffects'
+pod 'SVProgressHUD'
+pod 'Firebase/Auth'
+pod 'Firebase/Core’
+pod 'Firebase/Database’
+pod 'GoogleSignIn’
+pod 'FBSDKCoreKit'
+pod 'FBSDKLoginKit'
+pod 'FBSDKShareKit'
+pod 'SDWebImage'
+pod 'Firebase/Storage'
+  # Pods for SanjuMainToDoApp
+
+  target 'SanjuMainToDoAppTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'SanjuMainToDoAppUITests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+  
+end

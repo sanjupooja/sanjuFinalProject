@@ -1,0 +1,6 @@
+framework module Pods_SanjuMainToDoAppTests {
+  umbrella header "Pods-SanjuMainToDoAppTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
